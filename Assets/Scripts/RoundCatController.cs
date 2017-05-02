@@ -36,4 +36,11 @@ public class RoundCatController : MonoBehaviour {
         if(collision.gameObject.CompareTag("Player"))
             _animator.SetBool("walk", false);
     }
+
+    public float tor = 5f;
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+            GetComponent<Rigidbody2D>().AddTorque(tor);
+    }
 }
