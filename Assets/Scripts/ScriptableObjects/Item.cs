@@ -5,10 +5,11 @@ using UnityEngine;
 namespace ScriptableAssets
 {
     [CreateAssetMenu(fileName = "Item.cs", menuName = "Item")]
-    public class Item : ScriptableObjects
+    public class Item : ScriptableObject
     {
-        protected string name;
-        protected string id;
+        
+        protected string Name;
+        protected string Id;
     }
 }
 

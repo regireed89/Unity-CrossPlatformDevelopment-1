@@ -5,8 +5,8 @@ using UnityEngine;
 namespace ScriptableAssets
 {
     [CreateAssetMenu(fileName = "Kevlar Vest.cs", menuName = "Item/Equipment/Armor/Kevlar Vest")]
-    public class KevlarVest : Armor     
-        {
+    public class KevlarVest : Armor
+    {
 
     }
 }
